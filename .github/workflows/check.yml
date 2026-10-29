@@ -20,4 +20,4 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           CHECK_DURATION_SEC: "840"
           CHECK_INTERVAL_SEC: "30"
-        run: python3 check_tickets.py
+        run: python3 -u check_tickets.py
